@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Ready to use Context api & useReducer react Template.
 =======
 # Ready to use _Context api & useReducer_ react Template.
@@ -40,4 +40,3 @@ const [state, dispatch] = useStateValue();
 
  ------------------------------------------------ **Thanks** ------------------------------------------------
 #### Created with ❤ & 😊 by _Navjeevan Alone_
->>>>>>> 5e59fbe072b2218669daa6a1b79d30eee409a281
