@@ -1,29 +1,10 @@
 export const initialState = {
-	test: "test",
-	arr: ["bread", "butter"],
-	obj: [
-		{
-			fname: "chetan",
-			lname: "alone",
-			age: 18,
-			company: {
-				name: "Romaguera-Crona",
-				catchPhrase: "Multi-layered client-server neural-net",
-				bs: "harness real-time e-markets",
-			},
-		},
-		{
-			fname: "Jhon",
-			lname: "doe",
-			age: 20,
-			company: {
-				name: "Romaguera-Crona",
-				catchPhrase: "Multi-layered client-server neural-net",
-				bs: "harness real-time e-markets",
-			},
-		},
-	],
-	num: 159,
+	developer: {
+		fname: "Navjeevan",
+		lname: "alone",
+		age: 18,
+		stacks: ["HTML/CSS/Js", "Bootstrap", "React"],
+	},
 };
 export const ACTIONS = {
 	ADD: "ADD",

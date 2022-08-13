@@ -1,13 +1,7 @@
-import { useEffect } from "react";
-import "./App.css";
+import "./css/App.css";
 import Test from "./component/Test";
-import { useStateValue } from "./contexts/StateContext";
-function App() {
-	const [{ arr, num, obj }, dispatch] = useStateValue();
-	useEffect(() => {
-		dispatch({ type: "test-case" });
-	}, []);
 
+function App() {
 	return (
 		<div className='App'>
 			<Test />
