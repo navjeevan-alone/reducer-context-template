@@ -4,6 +4,7 @@ import "./css/index.css";
 import App from "./App";
 import StateProvider from "./contexts/StateContext";
 import reducer, { initialState } from "./reducers/stateReducer";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
